@@ -7,6 +7,7 @@ This project can be used to compile a native app to the web, using [bytecoder], 
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+  * [Testing JavaScript API's](#testing-javascript-apis)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
@@ -24,6 +25,12 @@ Since the app is written in kotlin and libgdx, GWT was not an option, so after a
 * [Libgdx]
 * [Kotlin]
 * [Bytecoder]
+
+### Testing JavaScript API's
+
+We are testing JavaScript api's in the [web-demo](https://github.com/squins/web-demo) project. Currently working on Audio and Webgl, in future also things like keyboard, mouse interaction when we implement them in Libgdx.
+
+Having a dedicated project to test those apis, makes the Bytecoder backend implementation just dedicated to porting the JS calls to Kotlin.
 
 ## Getting Started
 
